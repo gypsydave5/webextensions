@@ -1,0 +1,23 @@
+{
+
+    "manifest_version": 2,
+    "name": "Contextify",
+    "version": "1.0",
+
+    "description": "Context menu test",
+
+    "icons": {
+        "48": "icons/tetra.svg",
+        "94": "icons/tetra.svg"
+    },
+
+    "permissions": [
+        "contextMenus",
+        "activeTab"
+    ],
+
+     "background": {
+         "scripts": ["contextify.js"]
+     }
+
+}
